@@ -1,7 +1,7 @@
 #walrus-showing {
     display:none;
 }
-.clickable {
+span.clickable {
     cursor: pointer;
     color: #0088cc;
 }
