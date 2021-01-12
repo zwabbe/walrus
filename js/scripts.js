@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  $("span.clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+  $(".clickable").click(function() {
+    var elmID = $(this).attr('id');
+
+    $("#"+elmID+"-show").toggle();
+    $("#"+elmID+"-hide").toggle();
+
   });
 });

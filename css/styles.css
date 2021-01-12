@@ -1,10 +1,6 @@
-#walrus-showing {
+#walrus-hide {
+    display: none;
+}
+#llama-hide {
     display:none;
-}
-span.clickable {
-    cursor: pointer;
-    color: #0088cc;
-}
-span.clickable:hover{
-    text-decoration: underline;
 }
